@@ -1,0 +1,92 @@
+.fitures {
+    display: flex;
+    position: relative;
+
+    @include for-large-down {
+        display: none;
+    }
+
+
+    &__content {
+        margin: auto;
+        width: 1140px;
+        display: flex;
+    }
+
+    &__column {
+        width: 456px;
+    }
+
+    &__subtitle {
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 34px;
+        color: #009B4D;
+        margin: 0;
+    }
+
+    &__title {
+        font-weight: 700;
+        font-size: 56px;
+        line-height: 56px;
+        letter-spacing: -0.5px;
+        margin-top: $unit * 2.4;
+        margin-bottom: 0;
+    }
+
+    &__description {
+        margin-top: $unit * 3;
+        margin-bottom: 0;
+        font-size: 24px;
+        line-height: 34px;
+    }
+
+    &__advantage-header {
+        line-height: 42px;
+        display: flex;
+        margin-top: $unit * 4.2;
+    }
+
+    &__advantage-title {
+        color: #3142C6;
+        font-size: 22px;
+        font-weight: 700;
+        line-height: 26px;
+        margin: 0;
+        margin-left: $unit * 1.5;
+    }
+
+    &__advantage-description {
+        font-size: 18px;
+        line-height: 26px;
+        margin-top: $unit * 0.8;
+        margin-bottom: 0;
+        padding-bottom: 20px;
+        border-bottom: 3px solid #3142C6;
+    }
+
+    &__advantage-item {
+        display: flex;
+        border-bottom: 1px solid #2B292D26;
+        padding-bottom: 22px;
+        margin-top: $unit * 2.1;
+    }
+
+    &__advantage-item-text {
+        font-size: 22px;
+        font-weight: 700;
+        line-height: 26px;
+        margin-left: $unit * 1.5;
+    }
+
+    &__left-decoration {
+        position: absolute;
+        height: 166px;
+        top: 258px;
+    }
+
+    &__right-decoration {
+        position: absolute;
+        right: 0;
+    }
+}
