@@ -22,3 +22,8 @@
         display: none;
     }
 }
+button.button{
+    @include for-large-down{
+        color: #000;
+    }
+}

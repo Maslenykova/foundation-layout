@@ -16,6 +16,10 @@
   .hide-mobile {
     display: none; } }
 
+@media screen and (max-width: 400px) {
+  button.button {
+    color: #000; } }
+
 .about {
   width: 100%;
   background-color: #F4F5F7;
