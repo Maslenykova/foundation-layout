@@ -475,7 +475,7 @@
         letter-spacing: 0.5px;
         margin: 0; } }
   .headline__description {
-    margin-top: 24px;
+    margin-top: 26px;
     margin-bottom: 0;
     line-height: 34px;
     font-size: 24px; }
@@ -523,7 +523,7 @@
       width: 100%; } }
 
 .audience {
-  background-color: #d6f7f7;
+  background-color: #d6f1f79c;
   margin: auto;
   padding: 50px 15px; }
   @media screen and (min-width: 1360px) {
