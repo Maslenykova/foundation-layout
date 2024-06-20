@@ -2,7 +2,7 @@
 @import "variables.scss";
 
 .order {
-    padding: 50px 15px 15px 50px;
+    padding: 15px;
     background-color: $order-background-color;
 
     @include for-large-up {
@@ -19,14 +19,17 @@
 
     &__image {
         max-width: 200px;
+        margin: 50px 60px 0 60px;
 
         @include for-large-up {
             max-width: 269px;
+            margin: 0;
             margin-right: $unit * 12.1;
         }
     }
 
     &__title {
+        text-align: center;
         font-weight: 700;
         font-size: 40px;
         line-height: 40px;

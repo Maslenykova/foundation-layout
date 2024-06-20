@@ -257,7 +257,11 @@
       margin-top: 25px;
       justify-content: left; } }
   .downloads__item {
-    margin-right: 10px; }
+    margin-right: 10px;
+    width: 135px;
+    height: 40px; }
+    .downloads__item:last-child {
+      margin-right: 0; }
 
 .aditional-navigation {
   display: flex;
@@ -626,7 +630,7 @@
             margin-left: 0; } }
 
 .order {
-  padding: 50px 15px 15px 50px;
+  padding: 15px;
   background-color: #F4F5F7; }
   @media screen and (min-width: 1360px) {
     .order {
@@ -637,12 +641,15 @@
   .order__details {
     max-width: 555px; }
   .order__image {
-    max-width: 200px; }
+    max-width: 200px;
+    margin: 50px 60px 0 60px; }
     @media screen and (min-width: 1360px) {
       .order__image {
         max-width: 269px;
+        margin: 0;
         margin-right: 121px; } }
   .order__title {
+    text-align: center;
     font-weight: 700;
     font-size: 40px;
     line-height: 40px;
