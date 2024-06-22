@@ -356,8 +356,6 @@
 
 .header {
   display: flex;
-  align-items: center;
-  padding-left: 15px;
   height: 64px;
   width: 100%;
   background-color: #fff; }
@@ -459,8 +457,7 @@
       width: 1140px;
       margin: auto;
       margin-top: 84px;
-      display: flex;
-      padding-bottom: 77px; } }
+      display: flex; } }
   .headline__contant {
     margin: 35px 15px 33px 15px; }
     @media screen and (min-width: 1360px) {
