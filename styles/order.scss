@@ -21,6 +21,7 @@
         max-width: 200px;
         display: block;
         margin: auto;
+        margin-top: 50px;
 
         @include for-large-up {
             max-width: 269px;
