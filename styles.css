@@ -646,7 +646,7 @@
     max-width: 555px; }
   .order__image {
     max-width: 200px;
-    margin: 50px 60px 0 60px; }
+    margin: 50px 60px 40px 60px; }
     @media screen and (min-width: 1360px) {
       .order__image {
         max-width: 269px;
@@ -657,8 +657,7 @@
     font-weight: 700;
     font-size: 40px;
     line-height: 40px;
-    letter-spacing: -0.36px;
-    margin-top: 40px; }
+    letter-spacing: -0.36px; }
   .order__description {
     font-size: 24px;
     line-height: 34px;
