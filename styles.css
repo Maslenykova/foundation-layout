@@ -257,7 +257,7 @@
       justify-content: left; } }
   .downloads__item {
     margin-right: 10px;
-    width: 135px;
+    width: 130px;
     height: 40px; }
     .downloads__item:last-child {
       margin-right: 0; }
@@ -622,6 +622,7 @@
       align-items: center;
       flex-direction: column;
       justify-content: center;
+      padding: 10px;
       cursor: pointer; }
       .audience__pictures_item:hover {
         background-color: #3141C5;
