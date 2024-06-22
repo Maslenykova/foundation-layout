@@ -484,9 +484,10 @@
         margin: 0; } }
   .headline__description {
     margin-bottom: 0;
-    margin-top: 25px;
+    margin-top: 24px;
     line-height: 34px;
-    font-size: 24px; }
+    font-size: 24px;
+    width: 290px; }
     @media screen and (min-width: 1360px) {
       .headline__description {
         width: 456px;
