@@ -19,7 +19,8 @@
 
     &__image {
         max-width: 200px;
-        margin: 50px 60px 0 60px;
+        display: flex;
+        margin: auto;
 
         @include for-large-up {
             max-width: 269px;
