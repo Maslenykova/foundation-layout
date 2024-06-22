@@ -663,6 +663,9 @@
     line-height: 40px;
     letter-spacing: -0.36px;
     margin: 0; }
+    @media screen and (min-width: 1360px) {
+      .order__title {
+        text-align: start; } }
   .order__description {
     width: 290px;
     height: 167px;
@@ -670,6 +673,10 @@
     line-height: 32px;
     margin: 0;
     margin-top: 18px; }
+    @media screen and (min-width: 1360px) {
+      .order__description {
+        width: 555px;
+        height: 64px; } }
   @media screen and (min-width: 1360px) {
     .order__forms {
       display: flex;
