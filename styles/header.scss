@@ -103,12 +103,13 @@
     &__image {
         height: 48px;
         width: 48px;
-        margin-right: $unit * 1.3;
+        margin-right: $unit*1.3;
+       
 
         @include for-large-up {
             height: 60px;
             width: 60px;
-            margin-right: $unit * 1.5;
+            margin-top: $unit * 0.5;
         }
     }
 
