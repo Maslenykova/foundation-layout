@@ -423,6 +423,7 @@
   .logo__image {
     height: 48px;
     width: 48px;
+    margin-left: 15px;
     margin-right: 13px;
     margin-top: 10px; }
     @media screen and (min-width: 1360px) {
@@ -483,7 +484,7 @@
         margin: 0; } }
   .headline__description {
     margin-bottom: 0;
-    margin-top: 24px;
+    margin-top: 25px;
     line-height: 34px;
     font-size: 24px; }
     @media screen and (min-width: 1360px) {
@@ -604,9 +605,10 @@
         justify-content: center;
         margin-top: 95px; } }
     .audience__pictures_title {
-      padding-top: 20px;
-      font-size: 20px;
+      padding-top: 22px;
+      font-size: 22px;
       font-weight: 700;
+      line-height: 28px;
       color: #2B292D; }
     .audience__pictures_item {
       display: flex;
@@ -644,7 +646,7 @@
   .order__image {
     max-width: 200px;
     display: flex;
-    margin: auto; }
+    margin: 50px 60px 40px 60px; }
     @media screen and (min-width: 1360px) {
       .order__image {
         max-width: 269px;
