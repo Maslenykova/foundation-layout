@@ -665,7 +665,8 @@
     margin: 0; }
     @media screen and (min-width: 1360px) {
       .order__title {
-        text-align: start; } }
+        text-align: start;
+        margin-top: 33px; } }
   .order__description {
     width: 290px;
     height: 167px;

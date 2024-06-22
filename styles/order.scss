@@ -41,6 +41,7 @@
 
         @include for-large-up{
             text-align: start;
+            margin-top: $unit * 3.3;
         }
        
     }
