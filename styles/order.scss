@@ -37,13 +37,14 @@
         font-size: 40px;
         line-height: 40px;
         letter-spacing: -0.36px;
+        margin-top: 0;
        
     }
 
     &__description {
         font-size: 22px;
         line-height: 32px;
-        margin: 0;
+        margin-top: $unit * 1.8;
     }
 
     &__forms {

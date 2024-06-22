@@ -661,11 +661,12 @@
     font-weight: 700;
     font-size: 40px;
     line-height: 40px;
-    letter-spacing: -0.36px; }
+    letter-spacing: -0.36px;
+    margin-top: 0; }
   .order__description {
     font-size: 22px;
     line-height: 32px;
-    margin: 0; }
+    margin-top: 18px; }
   @media screen and (min-width: 1360px) {
     .order__forms {
       display: flex;
