@@ -19,7 +19,8 @@
 
     &__image {
         max-width: 200px;
-        margin: 50px 60px 40px 60px;
+        display: block;
+        margin: auto;
 
         @include for-large-up {
             max-width: 269px;

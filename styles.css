@@ -647,7 +647,8 @@
     max-width: 555px; }
   .order__image {
     max-width: 200px;
-    margin: 50px 60px 40px 60px; }
+    display: block;
+    margin: auto; }
     @media screen and (min-width: 1360px) {
       .order__image {
         max-width: 269px;
