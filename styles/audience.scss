@@ -100,15 +100,18 @@
         margin-top: $unit * 9.5;
     }
 
+    &_title{
+        padding-top: 20px;
+        font-size: 20px;
+        font-weight: 700;
+        color: #2B292D;
+    }
 
     &_item {
         display: flex;
         margin: 0;
         margin-top: $unit * 1.5;
         background-color: #FFFFFF;
-        font-size: 24px;
-        font-weight: 700;
-        color: #2B292D;
         border-radius: 2px;
         width: 290px;
         height: 300px;
@@ -122,6 +125,7 @@
             background-color: #3141C5;
             color: #FFFFFF;
         }
+       
 
         @include for-large-up {
             margin-left: $unit * 3;
