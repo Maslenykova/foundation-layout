@@ -256,8 +256,11 @@
       margin-top: 25px;
       justify-content: left; } }
   .downloads__item {
+    margin-right: 10px;
     width: 130px;
     height: 40px; }
+    .downloads__item:last-child {
+      margin-right: 0; }
 
 .aditional-navigation {
   display: flex;
@@ -287,11 +290,9 @@
   .nav-links__list {
     list-style-type: none;
     font-size: 18px;
-    line-height: 35px;
+    line-height: 30px;
     color: #2B292D;
     opacity: 0.6;
-    padding: 0;
-    margin: 0;
     margin-top: 18px; }
 
 .terms {
@@ -444,8 +445,10 @@
   .logo__text {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    margin-left: 15px; }
+    justify-content: center; }
+    @media screen and (min-width: 1360px) {
+      .logo__text {
+        margin-left: 15px; } }
 
 .headline {
   width: 100%; }
@@ -480,7 +483,7 @@
         margin: 0; } }
   .headline__description {
     margin: 0;
-    margin-top: 25px;
+    margin-top: 34px;
     line-height: 34px;
     font-size: 24px;
     width: 290px;
@@ -489,7 +492,6 @@
       .headline__description {
         width: 456px;
         height: 102px;
-        margin-top: 34px;
         line-height: 34px;
         font-size: 24px;
         z-index: 1; } }
