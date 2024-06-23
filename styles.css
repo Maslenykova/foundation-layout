@@ -248,19 +248,16 @@
   margin-top: 44px; }
 
 .downloads {
-  margin: 25px 15px 0 15px;
-  display: flex; }
+  margin: 31px 15px 0 15px; }
   @media screen and (min-width: 1360px) {
     .downloads {
+      display: flex;
       margin: 0;
       margin-top: 25px;
       justify-content: left; } }
   .downloads__item {
-    margin-right: 10px;
     width: 130px;
     height: 40px; }
-    .downloads__item:last-child {
-      margin-right: 0; }
 
 .aditional-navigation {
   display: flex;
@@ -290,7 +287,7 @@
   .nav-links__list {
     list-style-type: none;
     font-size: 18px;
-    line-height: 30px;
+    line-height: 35px;
     color: #2B292D;
     opacity: 0.6;
     padding: 0;
@@ -365,9 +362,6 @@
       width: 1140px;
       height: 62px;
       display: flex; } }
-  @media screen and (min-width: 1360px) {
-    .header {
-      align-items: center; } }
   .header__button {
     display: none; }
     @media screen and (min-width: 1360px) {
@@ -430,7 +424,7 @@
       .logo__image {
         height: 60px;
         width: 60px;
-        margin-top: 5px; } }
+        margin: 0; } }
   .logo__name {
     font-size: 20px;
     line-height: 25px;
@@ -450,7 +444,8 @@
   .logo__text {
     display: flex;
     flex-direction: column;
-    justify-content: center; }
+    justify-content: center;
+    margin-left: 15px; }
 
 .headline {
   width: 100%; }
@@ -484,7 +479,7 @@
         letter-spacing: 0.5px;
         margin: 0; } }
   .headline__description {
-    margin-bottom: 0;
+    margin: 0;
     margin-top: 25px;
     line-height: 34px;
     font-size: 24px;
@@ -591,7 +586,8 @@
         justify-content: center;
         margin-top: 34px; } }
   .audience__action-btn {
-    width: 100%; }
+    width: 100%;
+    padding: 0; }
     @media screen and (min-width: 1360px) {
       .audience__action-btn {
         flex-shrink: 0;
@@ -611,7 +607,8 @@
       font-size: 22px;
       font-weight: 700;
       line-height: 28px;
-      color: #2B292D; }
+      color: #2B292D;
+      margin: auto; }
     .audience__pictures_item {
       display: flex;
       margin: 0;
