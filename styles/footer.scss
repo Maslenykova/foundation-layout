@@ -72,7 +72,7 @@
 
 .downloads {
     margin: 31px 15px 0 15px;
-   
+
     @include for-large-up {
         display: flex;
         margin: 0;
@@ -86,7 +86,7 @@
         width: 130px;
         height: 40px;
 
-        &:last-child{
+        &:last-child {
             margin-right: 0;
         }
     }
