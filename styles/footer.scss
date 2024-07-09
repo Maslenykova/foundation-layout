@@ -2,10 +2,12 @@
 
 .footer {
     margin-top: auto;
+    height: 827px;
    
     @include for-large-up{
          display: flex;
          flex-direction: column;
+         height: 389px;
     }
 
     &__description {

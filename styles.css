@@ -196,11 +196,13 @@
     right: 0; }
 
 .footer {
-  margin-top: auto; }
+  margin-top: auto;
+  height: 827px; }
   @media screen and (min-width: 1360px) {
     .footer {
       display: flex;
-      flex-direction: column; } }
+      flex-direction: column;
+      height: 389px; } }
   .footer__description {
     display: none;
     line-height: 26px;
