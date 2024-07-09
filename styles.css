@@ -249,10 +249,10 @@
   margin-top: 44px; }
 
 .downloads {
-  margin: 31px 15px 0 15px; }
+  margin: 31px 15px 0 15px;
+  display: flex; }
   @media screen and (min-width: 1360px) {
     .downloads {
-      display: flex;
       margin: 0;
       margin-top: 25px;
       justify-content: left; } }
@@ -294,7 +294,8 @@
     line-height: 30px;
     color: #2B292D;
     opacity: 0.6;
-    margin-top: 18px; }
+    margin-top: 18px;
+    padding: 0; }
 
 .terms {
   line-height: 22px;
