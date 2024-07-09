@@ -468,7 +468,7 @@
     .headline {
       position: relative;
       width: 1245px;
-      height: 456px;
+      height: 450px;
       margin: auto;
       margin-top: 84px;
       display: flex; } }
@@ -538,8 +538,7 @@
         top: 0;
         height: 448px;
         width: 796px;
-        margin-left: 355px;
-        margin-top: 8px; } }
+        margin-left: 355px; } }
   @media screen and (max-width: 400px) {
     .headline__action-btn {
       width: 100%;
