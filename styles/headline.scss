@@ -89,7 +89,7 @@
         margin-bottom: $unit * 3.6;
 
         @include for-large-up {
-            position: relative;
+            // position: relative;
             right: -105px;
             top: 0;
             height: 448px;

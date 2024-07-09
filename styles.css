@@ -196,9 +196,11 @@
     right: 0; }
 
 .footer {
-  margin-top: auto;
-  display: flex;
-  flex-direction: column; }
+  margin-top: auto; }
+  @media screen and (min-width: 1360px) {
+    .footer {
+      display: flex;
+      flex-direction: column; } }
   .footer__description {
     display: none;
     line-height: 26px;
@@ -293,7 +295,7 @@
   .nav-links__list {
     list-style-type: none;
     font-size: 18px;
-    line-height: 40px;
+    line-height: 30px;
     width: 290px;
     color: #2B292D;
     opacity: 0.6;
@@ -529,7 +531,6 @@
     margin-bottom: 36px; }
     @media screen and (min-width: 1360px) {
       .headline__banner {
-        position: relative;
         right: -105px;
         top: 0;
         height: 448px;

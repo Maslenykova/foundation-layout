@@ -2,8 +2,11 @@
 
 .footer {
     margin-top: auto;
-    display: flex;
-    flex-direction: column;
+   
+    @include for-large-up{
+         display: flex;
+         flex-direction: column;
+    }
 
     &__description {
         display: none;
@@ -131,7 +134,7 @@
     &__list {
         list-style-type: none;
         font-size: 18px;
-        line-height: 40px;
+        line-height: 30px;
         width: 290px;
         color: $main-color;
         opacity: 0.6;
