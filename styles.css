@@ -538,7 +538,8 @@
         top: 0;
         height: 448px;
         width: 796px;
-        margin-left: 355px; } }
+        margin-left: 355px;
+        margin-top: 8px; } }
   @media screen and (max-width: 400px) {
     .headline__action-btn {
       width: 100%;
