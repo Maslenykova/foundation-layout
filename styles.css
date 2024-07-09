@@ -533,11 +533,12 @@
     margin-bottom: 36px; }
     @media screen and (min-width: 1360px) {
       .headline__banner {
+        position: relative;
         right: -105px;
         top: 0;
         height: 448px;
         width: 796px;
-        margin-left: auto; } }
+        margin-left: 355px; } }
   @media screen and (max-width: 400px) {
     .headline__action-btn {
       width: 100%;
