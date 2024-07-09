@@ -472,7 +472,7 @@
       margin: auto;
       margin-top: 84px;
       display: flex;
-      padding: 8px; } }
+      padding-top: 8px; } }
   .headline__contant {
     margin: 35px 15px 33px 15px; }
     @media screen and (min-width: 1360px) {
