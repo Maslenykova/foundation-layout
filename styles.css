@@ -250,10 +250,12 @@
 
 .downloads {
   margin: 31px 15px 0 15px;
-  display: flex; }
+  display: flex;
+  padding: 10px; }
   @media screen and (min-width: 1360px) {
     .downloads {
       margin: 0;
+      padding: 0;
       margin-top: 25px;
       justify-content: left; } }
   .downloads__item {
@@ -291,7 +293,7 @@
   .nav-links__list {
     list-style-type: none;
     font-size: 18px;
-    line-height: 30px;
+    line-height: 40px;
     color: #2B292D;
     opacity: 0.6;
     margin-top: 18px;

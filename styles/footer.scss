@@ -73,10 +73,11 @@
 .downloads {
     margin: 31px 15px 0 15px;
     display: flex;
+    padding: 10px;
 
     @include for-large-up {
-        
         margin: 0;
+        padding: 0;
         margin-top: $unit * 2.5;
         justify-content: left;
     }
@@ -130,12 +131,13 @@
     &__list {
         list-style-type: none;
         font-size: 18px;
-        line-height: 30px;
+        line-height: 40px;
         color: $main-color;
         opacity: 0.6;
         margin-top: $unit * 1.8;
         padding: 0;
     }
+    
 }
 
 .terms {
