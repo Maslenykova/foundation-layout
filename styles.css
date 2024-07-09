@@ -467,11 +467,12 @@
   @media screen and (min-width: 1360px) {
     .headline {
       position: relative;
-      width: 1245px;
-      height: 450px;
+      width: 1249px;
+      height: 456px;
       margin: auto;
       margin-top: 84px;
-      display: flex; } }
+      display: flex;
+      padding: 8px; } }
   .headline__contant {
     margin: 35px 15px 33px 15px; }
     @media screen and (min-width: 1360px) {
