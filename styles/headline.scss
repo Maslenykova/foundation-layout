@@ -76,6 +76,7 @@
         background-color: #fff;
         border: none;
         border-radius: 2px;
+        cursor: pointer;
 
         @include for-large-up {
             margin-left: $unit;
@@ -100,6 +101,7 @@
     &__action-btn {
         @include for-large-down {
             width: 100%;
+            cursor: pointer;
         }
     }
 }
