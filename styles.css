@@ -490,6 +490,7 @@
         font-size: 80px;
         line-height: 78px;
         text-align: left;
+        letter-spacing: -0.5px;
         margin: 0; } }
   .headline__description {
     margin: 0;
