@@ -43,7 +43,7 @@
 
     &__description {
         margin: 0;
-        margin-top: $unit * 3.4;
+        margin-top: $unit * 3;
         line-height: 34px;
         font-size: 24px;
         width: 290px;
@@ -54,6 +54,7 @@
             height: 102px;
             line-height: 34px;
             font-size: 24px;
+            margin-top: $unit * 3.4;
             z-index: 1;
         }
     }
