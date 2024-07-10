@@ -467,7 +467,7 @@
   width: 100%; }
   @media screen and (min-width: 1360px) {
     .headline {
-      width: 1240px;
+      width: 1245px;
       height: 456px;
       margin: auto;
       margin-top: 84px; } }
@@ -537,7 +537,7 @@
         top: 0;
         height: 455px;
         width: 796px;
-        margin-left: 350px;
+        margin-left: 346px;
         padding-top: 8px; } }
   @media screen and (max-width: 400px) {
     .headline__action-btn {
