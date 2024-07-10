@@ -491,6 +491,7 @@
         height: 165px;
         font-size: 80px;
         line-height: 78px;
+        text-align: left;
         margin: 0; } }
   .headline__description {
     margin: 0;
