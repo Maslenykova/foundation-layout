@@ -467,7 +467,6 @@
   width: 100%; }
   @media screen and (min-width: 1360px) {
     .headline {
-      position: relative;
       width: 1245px;
       height: 456px;
       margin: auto;
