@@ -89,16 +89,13 @@
 
     &__button {
         margin-top: $unit * 1.2;
-
-        @include for-large-down {
-            width: 100%;
-        }
-
+        width: 100%;
 
         @include for-large-up {
             margin-top: 0;
             margin-left: $unit;
             flex-shrink: 0;
+            width: 160px;
         }
     }
 

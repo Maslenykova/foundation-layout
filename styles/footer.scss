@@ -65,9 +65,36 @@
     }
 
     .logo {
-        @include for-large-down {
-            display: none;
+        display: flex;
+        flex-direction: column;
+       align-items: center;
+        @include for-large-up {
+            flex-direction: row;
         }
+        
+    &__image {
+        width: 60px;
+        height: 55px;
+        @include for-large-up{
+            height: 60px;
+        }
+    }
+
+    &__name {
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 25px;
+        text-align: center;
+        margin-top: $unit * 2;
+    }
+
+    &__description {
+        font-size: 18px;
+        line-height: 25px;
+        text-align: center;
+        color: $main-color;
+        opacity: 0.6;
+    }
     }
 }
 
@@ -190,34 +217,36 @@
     }
 }
 
-.logo-vertical {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+// .logo-vertical {
+//     @include for-large-down{
+//     display: flex;
+//     flex-direction: column;
+//     align-items: center;
+//     }
 
-    @include for-large-up {
-        display: none;
-    }
+//     @include for-large-up {
+//         display: none;
+//     }
 
 
-    &__image {
-        width: 60px;
-        height: 55px;
-    }
+//     &__image {
+//         width: 60px;
+//         height: 55px;
+//     }
 
-    &__name {
-        font-weight: 700;
-        font-size: 20px;
-        line-height: 25px;
-        text-align: center;
-        margin-top: $unit * 2;
-    }
+//     &__name {
+//         font-weight: 700;
+//         font-size: 20px;
+//         line-height: 25px;
+//         text-align: center;
+//         margin-top: $unit * 2;
+//     }
 
-    &__description {
-        font-size: 18px;
-        line-height: 25px;
-        text-align: center;
-        color: $main-color;
-        opacity: 0.6;
-    }
-}
+//     &__description {
+//         font-size: 18px;
+//         line-height: 25px;
+//         text-align: center;
+//         color: $main-color;
+//         opacity: 0.6;
+//     }
+// }
