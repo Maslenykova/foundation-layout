@@ -12,7 +12,6 @@
         align-items: flex-start;
     }
 
-
     &__details {
         max-width: 555px;
     }
@@ -81,7 +80,6 @@
             margin-top: 0;
         }
 
-
         &::placeholder {
             color: $main-color;
         }
@@ -104,7 +102,7 @@
         line-height: 22px;
         color: $text-color;
     }
-
+    
     &terms-links {
         color: $color-text-blue;
     }

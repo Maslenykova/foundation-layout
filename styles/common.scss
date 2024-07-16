@@ -12,18 +12,19 @@
     cursor: pointer;
 }
 
-.hide-desctop {
+.hide{
+    &_desktop {
     @include for-large-up {
         display: none;
+      }
     }
-}
 
-.hide-mobile {
+    &_mobile {
     @include for-large-down {
         display: none;
+      }
     }
 }
-
 button.button {
     @include for-large-down {
         color: #000;

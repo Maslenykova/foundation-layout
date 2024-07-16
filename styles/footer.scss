@@ -10,6 +10,10 @@
          height: 389px;
     }
 
+    &__about-company {
+        margin-top: $unit * 4.4;
+    }
+
     &__description {
         display: none;
         line-height: 26px;
@@ -100,10 +104,6 @@
     }
 }
 
-.about-company {
-    margin-top: $unit * 4.4;
-}
-
 .downloads {
     margin: 31px 15px 0 15px;
     display: flex;
@@ -114,7 +114,6 @@
         margin-top: $unit * 2.5;
         justify-content: left;
     }
-
 
     &__item {
         margin-right: $unit;
@@ -139,7 +138,6 @@
         margin-left: auto;
         flex-direction: row;
     }
-
 
     &__column {
         margin-top: $unit * 3;
@@ -192,7 +190,6 @@
         margin-top: 0;
     }
 
-
     &__item {
         text-decoration: none;
         color: $main-color;
@@ -209,7 +206,6 @@
         margin-left: auto;
     }
 
-
     &__item {
         margin-left: $unit * 2;
 
@@ -218,7 +214,7 @@
         }
     }
 }
- img.image{
+img.image{
     margin: 0;
  }
 

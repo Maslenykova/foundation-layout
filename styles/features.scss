@@ -1,11 +1,10 @@
-.fitures {
+.features {
     display: flex;
     position: relative;
 
     @include for-large-down {
         display: none;
     }
-
 
     &__content {
         margin: auto;

@@ -12,7 +12,6 @@
         margin-top: $unit * 4;
     }
 
-
     &__content {
         @include for-large-up {
             display: flex;
@@ -86,7 +85,7 @@
             max-width: 160px;
         }
     }
-    &__img{
+    &__user-card{
         padding: 10px;
     }
 
@@ -102,7 +101,6 @@
             justify-content: center;
             margin-top: $unit * 9.5;
         }
-
 
         &_title {
             font-size: 22px;
