@@ -1,4 +1,4 @@
-@import "variables.scss";
+@import 'variables.scss';
 
 .action-button {
   width: 160px;
@@ -10,8 +10,8 @@
   border: none;
   border-radius: 2px;
   cursor: pointer;
-}
 
+}
 .hide {
   &_desktop {
     @include for-large-up {
@@ -26,8 +26,17 @@
   }
 }
 
-button.button {
+.button {
   @include for-large-down {
     color: #000;
+  }
+}
+
+.top-section {
+  background-color: $header-color;
+
+  @include for-large-up {
+    background-color: $header-color;
+    padding-top: 39px;
   }
 }

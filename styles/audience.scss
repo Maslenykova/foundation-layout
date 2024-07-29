@@ -1,5 +1,5 @@
-@import "variables";
-@import "breakpoints.scss";
+@import 'variables';
+@import 'breakpoints.scss';
 
 .audience {
   background-color: $background-color-audience;
@@ -108,7 +108,7 @@
     font-size: 22px;
     font-weight: 700;
     line-height: 28px;
-    color: #2B292D;
+    color: #2b292d;
     margin: auto;
   }
 
@@ -116,7 +116,7 @@
     display: flex;
     margin: 0;
     margin-top: $unit * 1.5;
-    background-color: #FFFFFF;
+    background-color: #ffffff;
     border-radius: 2px;
     width: 290px;
     height: 300px;
@@ -128,8 +128,8 @@
     cursor: pointer;
 
     &:hover {
-      background-color: #3141C5;
-      color: #FFFFFF;
+      background-color: #3141c5;
+      color: #ffffff;
     }
 
     @include for-large-up {
