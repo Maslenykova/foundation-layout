@@ -80,6 +80,7 @@
     &__image {
       width: 60px;
       height: 55px;
+      margin: 0;
 
       @include for-large-up {
         height: 60px;
@@ -214,6 +215,3 @@
   }
 }
 
-.image {
-  margin: 0;
-}

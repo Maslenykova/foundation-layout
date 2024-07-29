@@ -262,7 +262,8 @@
         flex-direction: row; } }
     .footer .logo__image {
       width: 60px;
-      height: 55px; }
+      height: 55px;
+      margin: 0; }
       @media screen and (min-width: 1400px) {
         .footer .logo__image {
           height: 60px; } }
@@ -360,9 +361,6 @@
     margin-left: 20px; }
     .social-links__item:first-child {
       margin-left: 0; }
-
-.image {
-  margin: 0; }
 
 .action-button {
   width: 160px;
